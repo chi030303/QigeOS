@@ -35,3 +35,5 @@ fn main() -> i32 {
     panic!("Cannot find main!");
 }
 
+pub fn yield_() -> isize { sys_yield() }
+
